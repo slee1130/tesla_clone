@@ -6,6 +6,7 @@
     background-size: cover;
     display: flex;
     justify-content: center;
+    scroll-snap-align: start;
 }
 
 .item__container{
@@ -42,9 +43,11 @@
     display: flex;
 }
 
-.item__expand{
+.item__expand {
     color: white;
     width: 100%;
     margin-top: 3%;
     justify-content: center;
+    align-items: center;
+    display: flex;
 }
